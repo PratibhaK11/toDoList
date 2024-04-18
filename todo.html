@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="todoList">
+            <h2><img src="icon.jpg" alt="" srcset=""> To Do List </h2>
+            <div class="userInput">
+                <input class="input" type="text" name="text" id="text" placeholder="Add your task">
+                <button class="btn">Add</button>
+
+            </div> 
+               
+        </div>
+        <div class="main">
+            <div class="control">
+                <span class="active" id="all">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+
+            </div>
+            <button class="remove-btn">Remove All</button>
+        </div>
+        <ul class="taskList"></ul>
+
+    </div>
+
+
+
+        
+        
+    </div>    
+    <script src="todo.js"></script>
+    
+</body>
+</html>
